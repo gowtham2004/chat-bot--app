@@ -11,6 +11,4 @@ def response():
     return jsonify({"response": "hello"})
 
 
-if __name__ == "_main_":
-    app.run(host="0.0.0.0")
 
